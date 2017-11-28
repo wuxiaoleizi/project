@@ -14,7 +14,7 @@
 		3A6594931FCD4F8000F48129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6594911FCD4F8000F48129 /* LaunchScreen.storyboard */; };
 		3A65949E1FCD4F8100F48129 /* maibei_temporay_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65949D1FCD4F8100F48129 /* maibei_temporay_swiftTests.swift */; };
 		3A6594A91FCD4F8100F48129 /* maibei_temporay_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6594A81FCD4F8100F48129 /* maibei_temporay_swiftUITests.swift */; };
-		F63B3A5CCF963C517044AC4A /* libPods-maibei_temporay_swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E133EBA56FB2B719F5081F2B /* libPods-maibei_temporay_swift.a */; };
+		689B88979B149CC04BE6C5F0 /* Pods_maibei_temporay_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C087922B83CB4C3C127D53 /* Pods_maibei_temporay_swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		08843B45AC0F5C4F359959E0 /* Pods-maibei_temporay_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maibei_temporay_swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-maibei_temporay_swift/Pods-maibei_temporay_swift.release.xcconfig"; sourceTree = "<group>"; };
+		12C087922B83CB4C3C127D53 /* Pods_maibei_temporay_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_maibei_temporay_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A6594851FCD4F8000F48129 /* maibei_temporay_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maibei_temporay_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A6594881FCD4F8000F48129 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A65948A1FCD4F8000F48129 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		3A6594A81FCD4F8100F48129 /* maibei_temporay_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maibei_temporay_swiftUITests.swift; sourceTree = "<group>"; };
 		3A6594AA1FCD4F8100F48129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		676F6F18D359BFF4F908C13A /* Pods-maibei_temporay_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maibei_temporay_swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-maibei_temporay_swift/Pods-maibei_temporay_swift.debug.xcconfig"; sourceTree = "<group>"; };
-		E133EBA56FB2B719F5081F2B /* libPods-maibei_temporay_swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-maibei_temporay_swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F63B3A5CCF963C517044AC4A /* libPods-maibei_temporay_swift.a in Frameworks */,
+				689B88979B149CC04BE6C5F0 /* Pods_maibei_temporay_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +144,7 @@
 		A51AFED3686AC77BE246AFAC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E133EBA56FB2B719F5081F2B /* libPods-maibei_temporay_swift.a */,
+				12C087922B83CB4C3C127D53 /* Pods_maibei_temporay_swift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

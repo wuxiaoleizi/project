@@ -1,6 +1,7 @@
 platform :ios, '8.0'
 
-target 'maibei_temporay_swift' do
-	pod 'AFNetworking', '~> 3.1.0'
+use_frameworks!
 
+target 'maibei_temporay_swift' do
+	pod 'SnapKit', '~> 4.0.0'
 end
